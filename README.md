@@ -64,41 +64,7 @@ Evaluations for Batch 2: From December 21 to December 24
 
 **Ideas**
 
-**(You need to choose ONE of the following ideas)**
-
-1. **PROJECT: "Secure The Room"**
-
-You are required to design a security system that when detects a sound and movement towards a room, an alarm should ring and a message shall be displayed.
-
-**Tasks:**
-
-1) The user needs to start the system using a button or any equivalent.
-1) You have to use a sensor to detect nearby noticeable sounds.
-1) You have to use a sensor to detect if an object is nearby.
-1) You must use any device that can produce sound upon detection, and an actuator/motor to activate locking the room door.
-1) A warning message should appear on the 7 SEGMENT DISPLAY upon detection.
-2. **PROJECT: “Mini Garage”**
-
-A special place has a special type of a garage, a man is responsible for opening a gate whenever he sees a car, once the car enters after the gate opens, the monitor should increase the number of entering cars by 1.
-
-**Tasks:**
-
-1) Initially, the number of cars is zero.
-1) You can use a button to simulate the man who opens the gate.
-1) You have to use a sensor to detect that the car has passed the gate.
-1) Upon detection of the car passing the gate, the gate should return to its initial position using an actuator of your own choice.
-1) The number of cars shall be displayed on the 7 SEGMENT DISPLAY.
-3. **PROJECT: “Smart Car”**
-
-You have a smart self-driving car that follows a straight lane, whenever it goes out of the lane a warning message should be displayed on the screen. The car should also stop when it detects an obstacle in front of it.
-
-**Tasks:**
-
-1) Initially, the car should be moving using a moving part.
-1) The car should follow a lane using a sensor of your choice.
-1) If the car drifted outside its designated lane, a warning message “ALERT” should appear on the 7 SEGMENT DISPLAY.
-1) Using your own choice of sensor, the car should detect if there is any obstacle in front of it, then the car should stop.
-4. **PROJECT: “Pet Feeder”**
+**PROJECT: “Pet Feeder”**
 
 You need to implement an automated pet feeder that dispenses food bar for a pet. You have a feeder container in which you will define the initial number of existing bars (for example: it could be the maximum capacity of the container). The pet owner should enter the amount of bars to be dispensed (e.g. 2 bars per time).
 
@@ -113,37 +79,3 @@ The system should detect if the pet is standing in front of the container, then 
    1. If yes, a moving part should draw the bar from the container.
    1. If not, an “EMPTY” word should be displayed on the 7 SEGMENT DISPLAY of the board.
 1) The updated amount of bars available should be displayed on the 7 SEGMENT DISPLAY for each dispense action.
-5. **PROJECT: “Plant care system”**
-
-You are required to implement an automated plant care system with 2 stages:
-
-1. Stage 1 is for watering the plant.
-1. Stage 2 for dispensing plant fertilizers.
-
-**Tasks:**
-
-1) The user needs to start the system using a button or any equivalent.
-1) The system should pump the water using a water pump for a specific amount of time from your choice and then the water pump stops after that time and this is marked as stage 1. Moreover, you should switch on a LED to determine that we are in stage 1.
-1) The system should dispense the plant fertilizers using a motor after stage 1 is finished automatically. This should be indicated using another LED than that used in stage 1.
-1) You should have a stop button to stop the plant care system.
-6. **PROJECT: “Baby feeding Scheduler”**
-
-The scheduler should be designed to help mum to schedule specific time slots for feeding her baby and make the bed swings to help the baby calm down till she arrives. The mum will adjust the timers for feeding times, thus at the exact time an alerting sound will go on and the bed will start swinging. When the mum approaches her baby, the system will detect her and will stop the bed from swinging and the alert automatically.
-
-We will use the clock embedded in the FPGA to simulate the time between one feed and another.
-
-**Tasks:**
-
-1) When the exact time approaches, the mum should be alerted using a sound
-
-   device of your own choice, and the bed will be activated/swinging using a moving device of your choice.
-
-2) When the mum approaches the baby, she should be detected using a sensor of your own choice to stop the sound alert and deactivate the bed from swinging.
-
-**“BONUS”**
-
-- If you added an extra feature using an ANALOG SENSOR which requires an extra microcontroller connection (for example: Arduino Board) (or FPGA-based ADC module/code), it will be counted as a bonus to any of the ideas listed above.
-- You must use the microcontroller for ONLY reading the sensor values; however, any output must be controlled through the FPGA.
-
-*Good Luck :)*
-10
